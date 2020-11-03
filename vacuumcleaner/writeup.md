@@ -6,6 +6,14 @@ Given M x N grid(floor) create an agent that moves around the grid until the ent
 - Move the agent anyway you see fit until the floor is clean, **Zig-Zag** in my implementation
 - Agent can start at any tile on the floor, given as input to the program
 
+## Notation
+The floor is represented by a M x N grid where **1** represents a _dirty_ tile and **0** represents a _clean_ tile
+```
+floor = [[1, 0, 0, 0], 
+         [0, 1, 0, 1],
+         [1, 0, 1, 1]]
+```
+
 ## Algorithm
 ```
 function CLEAN(floor, startRow, startCol):
